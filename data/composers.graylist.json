@@ -1,0 +1,86 @@
+{
+  "description": "Died after 1908. NOT in the v1 allowlist. Optional later review: some US publications may now be PD (works published 1930 or earlier entered the US public domain on 1 Jan 2026) while later publications, unpublished works, and EU life+70 status still vary. Do not treat presence here as clearance.",
+  "composers": [
+    {
+      "canonical": "Camille Saint-Saens",
+      "death_year": 1921,
+      "aliases": [
+        "saint saens",
+        "saint-saens",
+        "camille saint saens",
+        "c saint saens",
+        "saint saens camille"
+      ]
+    },
+    {
+      "canonical": "Gustav Mahler",
+      "death_year": 1911,
+      "aliases": [
+        "mahler",
+        "gustav mahler",
+        "g mahler"
+      ]
+    },
+    {
+      "canonical": "Claude Debussy",
+      "death_year": 1918,
+      "aliases": [
+        "debussy",
+        "claude debussy",
+        "c debussy",
+        "achille claude debussy"
+      ]
+    },
+    {
+      "canonical": "Giacomo Puccini",
+      "death_year": 1924,
+      "aliases": [
+        "puccini",
+        "giacomo puccini",
+        "g puccini"
+      ]
+    },
+    {
+      "canonical": "Maurice Ravel",
+      "death_year": 1937,
+      "aliases": [
+        "ravel",
+        "maurice ravel",
+        "m ravel",
+        "joseph maurice ravel"
+      ]
+    },
+    {
+      "canonical": "Gustav Holst",
+      "death_year": 1934,
+      "aliases": [
+        "holst",
+        "gustav holst",
+        "g holst",
+        "gustav theodore holst"
+      ]
+    },
+    {
+      "canonical": "Edward Elgar",
+      "death_year": 1934,
+      "aliases": [
+        "elgar",
+        "edward elgar",
+        "e elgar",
+        "sir edward elgar"
+      ]
+    },
+    {
+      "canonical": "Sergei Rachmaninoff",
+      "death_year": 1943,
+      "aliases": [
+        "rachmaninoff",
+        "rachmaninov",
+        "sergei rachmaninoff",
+        "sergei rachmaninov",
+        "s rachmaninoff",
+        "sergey rachmaninoff"
+      ]
+    }
+  ]
+}

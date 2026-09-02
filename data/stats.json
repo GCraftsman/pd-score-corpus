@@ -1,0 +1,181 @@
+{
+  "source_csv": ".cache/PDMX.csv",
+  "zenodo_record": "https://zenodo.org/records/15571083",
+  "zenodo_doi": "10.5281/zenodo.15571083",
+  "rows_read": 254077,
+  "kept": 3730,
+  "piano_only": 186,
+  "multi_track": 1830,
+  "single_track_not_tagged_piano": 1714,
+  "drop_reasons": {
+    "license_conflict": 31221,
+    "empty_composer": 158909,
+    "not_allowlisted": 49631,
+    "is_original": 7548,
+    "denylist_content": 2242,
+    "graylist_composer": 323,
+    "denylist_composer": 268,
+    "has_paywall": 169,
+    "not_all_valid": 36
+  },
+  "top_composers": [
+    [
+      "Johann Sebastian Bach",
+      1190
+    ],
+    [
+      "Wolfgang Amadeus Mozart",
+      380
+    ],
+    [
+      "Ludwig van Beethoven",
+      279
+    ],
+    [
+      "George Frideric Handel",
+      227
+    ],
+    [
+      "Henry Purcell",
+      179
+    ],
+    [
+      "Frederic Chopin",
+      157
+    ],
+    [
+      "Joseph Haydn",
+      119
+    ],
+    [
+      "Franz Schubert",
+      104
+    ],
+    [
+      "Antonio Vivaldi",
+      90
+    ],
+    [
+      "Johannes Brahms",
+      86
+    ],
+    [
+      "Felix Mendelssohn",
+      80
+    ],
+    [
+      "Pyotr Ilyich Tchaikovsky",
+      79
+    ],
+    [
+      "Robert Schumann",
+      68
+    ],
+    [
+      "Johann Pachelbel",
+      67
+    ],
+    [
+      "Edvard Grieg",
+      64
+    ],
+    [
+      "Richard Wagner",
+      62
+    ],
+    [
+      "Gioachino Rossini",
+      62
+    ],
+    [
+      "Franz Liszt",
+      59
+    ],
+    [
+      "Domenico Scarlatti",
+      42
+    ],
+    [
+      "Georg Philipp Telemann",
+      32
+    ],
+    [
+      "Giuseppe Verdi",
+      31
+    ],
+    [
+      "Antonin Dvorak",
+      31
+    ],
+    [
+      "Georges Bizet",
+      28
+    ],
+    [
+      "Charles Gounod",
+      27
+    ],
+    [
+      "Jean-Philippe Rameau",
+      23
+    ]
+  ],
+  "composer_counts": {
+    "Wolfgang Amadeus Mozart": 380,
+    "Jean-Philippe Rameau": 23,
+    "Pyotr Ilyich Tchaikovsky": 79,
+    "Domenico Scarlatti": 42,
+    "Johann Sebastian Bach": 1190,
+    "Ludwig van Beethoven": 279,
+    "Henry Purcell": 179,
+    "Johannes Brahms": 86,
+    "George Frideric Handel": 227,
+    "Robert Schumann": 68,
+    "Georges Bizet": 28,
+    "Vincenzo Bellini": 10,
+    "Johann Pachelbel": 67,
+    "Richard Wagner": 62,
+    "Franz Schubert": 104,
+    "Antonio Vivaldi": 90,
+    "Anton Bruckner": 23,
+    "Modest Mussorgsky": 18,
+    "Charles Gounod": 27,
+    "Frederic Chopin": 157,
+    "Joseph Haydn": 119,
+    "Franz Liszt": 59,
+    "Johann Strauss II": 13,
+    "Edvard Grieg": 64,
+    "Nikolai Rimsky-Korsakov": 21,
+    "Gioachino Rossini": 62,
+    "Giuseppe Verdi": 31,
+    "Muzio Clementi": 3,
+    "Felix Mendelssohn": 80,
+    "Antonin Dvorak": 31,
+    "Christoph Willibald Gluck": 12,
+    "Jacques Offenbach": 11,
+    "Hector Berlioz": 8,
+    "Cesar Franck": 7,
+    "Georg Philipp Telemann": 32,
+    "Bedrich Smetana": 3,
+    "Arcangelo Corelli": 21,
+    "Luigi Boccherini": 7,
+    "Alexander Borodin": 3,
+    "Gaetano Donizetti": 4
+  },
+  "graylist_seen_but_dropped": {
+    "Gustav Holst": 37,
+    "Claude Debussy": 86,
+    "Edward Elgar": 28,
+    "Giacomo Puccini": 17,
+    "Sergei Rachmaninoff": 40,
+    "Maurice Ravel": 52,
+    "Gustav Mahler": 22,
+    "Camille Saint-Saens": 41
+  },
+  "require_all_valid": true,
+  "pdmx_csv_md5": "30392ccf38bb63ce70e7afae70f9c88c",
+  "pdmx_csv_bytes": 225399738,
+  "generated_at_utc": "2026-09-02T07:22:02Z",
+  "filter": "scripts/filter_pdmx.py",
+  "allowlist": "data/composers.allowlist.json v1 death_year<=1908"
+}

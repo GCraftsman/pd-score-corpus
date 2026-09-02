@@ -1,0 +1,50 @@
+pd-score-corpus
+===============
+
+This project is a curated *subset selector* for PDMX. It is not affiliated
+with the PDMX authors, UC San Diego, MuseScore, Ultimate Guitar, or
+Creative Commons.
+
+PDMX
+----
+
+PDMX: A Large-Scale Public Domain MusicXML Dataset for Symbolic Music
+Processing, by Phillip Long, Zachary Novack, Julian McAuley, and
+Taylor Berg-Kirkpatrick.
+
+- Paper: https://arxiv.org/abs/2409.10831
+- HTML (v2): https://arxiv.org/html/2409.10831v2
+- Dataset (Zenodo v9, 1 June 2025): https://zenodo.org/records/15571083
+  DOI: 10.5281/zenodo.15571083
+  Concept DOI: 10.5281/zenodo.13763755
+- Code (MIT License, Copyright 2023 Phillip Long): https://github.com/pnlong/PDMX
+- Demo: https://pnlong.github.io/PDMX.demo/
+
+PDMX authors request that users of the dataset also cite Xu, McAuley,
+Berg-Kirkpatrick, Dubnov, and Dong, "Generating Symbolic Music from Natural
+Language Prompts using an LLM-Enhanced Dataset" (MetaScore),
+arXiv:2410.02084. They thank Hao-Wen Dong for scraping MuseScore and
+compiling the source data used to create PDMX.
+
+The PDMX *code* is MIT-licensed. The PDMX *dataset compilation* is described
+by the authors as CC-BY (Zenodo record license: CC-BY-4.0). Individual score
+encodings in PDMX were selected from MuseScore.com rows whose uploaders
+declared CC0 or Public Domain Mark.
+
+PDMX authors later reported a discrepancy between MuseScore's public-facing
+copyright metadata and the internal copyright field of the MuseScore files
+themselves, affecting 31,221 songs (12.29%). They recommend the
+`no_license_conflict` subset (222,856 songs). This project's filter requires
+that subset.
+
+MuseScore encodings
+-------------------
+
+Score files originated as user uploads on MuseScore.com. This repository
+does not scrape MuseScore. It redistributes a *curated subset derived from
+the Zenodo dump of PDMX*. MuseScore Terms of Use restrict scraping and
+redistribution of content downloaded from MuseScore.com itself; the
+relationship between those terms and a third-party Zenodo dump is uncertain
+and is flagged in LEGAL.md. This project is not affiliated with MuseScore.
+
+Do not assume any file is "cleared for film." See LEGAL.md.

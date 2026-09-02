@@ -1,0 +1,524 @@
+{
+  "version": "v1",
+  "rule": "Composer died 1908 or earlier. Aliases are matched after lowercasing, stripping punctuation/accents, and removing parenthetical years.",
+  "composers": [
+    {
+      "canonical": "Johann Pachelbel",
+      "death_year": 1706,
+      "aliases": [
+        "pachelbel",
+        "johann pachelbel",
+        "j pachelbel",
+        "joh pachelbel",
+        "johann pachelbel 1653 1706"
+      ]
+    },
+    {
+      "canonical": "Arcangelo Corelli",
+      "death_year": 1713,
+      "aliases": [
+        "corelli",
+        "arcangelo corelli",
+        "a corelli",
+        "arcangelo corelli 1653 1713"
+      ]
+    },
+    {
+      "canonical": "Antonio Vivaldi",
+      "death_year": 1741,
+      "aliases": [
+        "vivaldi",
+        "antonio vivaldi",
+        "a vivaldi",
+        "a a vivaldi",
+        "antonio lucio vivaldi",
+        "ant vivaldi"
+      ]
+    },
+    {
+      "canonical": "Georg Philipp Telemann",
+      "death_year": 1767,
+      "aliases": [
+        "telemann",
+        "georg philipp telemann",
+        "g p telemann",
+        "gp telemann",
+        "georg telemann",
+        "philipp telemann",
+        "g philipp telemann"
+      ]
+    },
+    {
+      "canonical": "George Frideric Handel",
+      "death_year": 1759,
+      "aliases": [
+        "handel",
+        "haendel",
+        "george frideric handel",
+        "georg friedrich handel",
+        "george frederick handel",
+        "georg friedrich haendel",
+        "g f handel",
+        "gf handel",
+        "g f haendel",
+        "george handel",
+        "friedrich handel",
+        "frideric handel",
+        "g handel",
+        "georg handel"
+      ]
+    },
+    {
+      "canonical": "Johann Sebastian Bach",
+      "death_year": 1750,
+      "aliases": [
+        "johann sebastian bach",
+        "j s bach",
+        "js bach",
+        "joh sebastian bach",
+        "joh seb bach",
+        "sebastian bach",
+        "jean sebastien bach",
+        "bach johann sebastian",
+        "bach j s",
+        "bach js",
+        "i s bach",
+        "jsbach",
+        "johann s bach",
+        "j sebastian bach",
+        "johann seb bach",
+        "bach"
+      ]
+    },
+    {
+      "canonical": "Domenico Scarlatti",
+      "death_year": 1757,
+      "aliases": [
+        "domenico scarlatti",
+        "d scarlatti",
+        "g d scarlatti",
+        "giuseppe domenico scarlatti",
+        "scarlatti domenico",
+        "domenico scarlatti 1685 1757",
+        "scarlatti"
+      ]
+    },
+    {
+      "canonical": "Henry Purcell",
+      "death_year": 1695,
+      "aliases": [
+        "purcell",
+        "henry purcell",
+        "h purcell",
+        "henry purcell 1659 1695"
+      ]
+    },
+    {
+      "canonical": "Jean-Philippe Rameau",
+      "death_year": 1764,
+      "aliases": [
+        "rameau",
+        "jean philippe rameau",
+        "j p rameau",
+        "jp rameau",
+        "jean rameau",
+        "j rameau"
+      ]
+    },
+    {
+      "canonical": "Christoph Willibald Gluck",
+      "death_year": 1787,
+      "aliases": [
+        "gluck",
+        "christoph willibald gluck",
+        "christoph gluck",
+        "c w gluck",
+        "cw gluck",
+        "willibald gluck",
+        "christoph willibald von gluck",
+        "ritter gluck"
+      ]
+    },
+    {
+      "canonical": "Joseph Haydn",
+      "death_year": 1809,
+      "aliases": [
+        "haydn",
+        "joseph haydn",
+        "franz joseph haydn",
+        "franz josef haydn",
+        "f j haydn",
+        "fj haydn",
+        "jos haydn",
+        "josef haydn",
+        "papa haydn",
+        "j haydn",
+        "fr haydn"
+      ]
+    },
+    {
+      "canonical": "Wolfgang Amadeus Mozart",
+      "death_year": 1791,
+      "aliases": [
+        "mozart",
+        "wolfgang amadeus mozart",
+        "w a mozart",
+        "wa mozart",
+        "wolfgang mozart",
+        "amadeus mozart",
+        "wolfgang a mozart",
+        "w mozart",
+        "mozart wolfgang amadeus",
+        "w a mozart",
+        "joannes chrysostomus wolfgangus theophilus mozart"
+      ]
+    },
+    {
+      "canonical": "Muzio Clementi",
+      "death_year": 1832,
+      "aliases": [
+        "clementi",
+        "muzio clementi",
+        "m clementi",
+        "muzio filippo vincenzo francesco saverio clementi"
+      ]
+    },
+    {
+      "canonical": "Luigi Boccherini",
+      "death_year": 1805,
+      "aliases": [
+        "boccherini",
+        "luigi boccherini",
+        "l boccherini",
+        "ridolfo luigi boccherini"
+      ]
+    },
+    {
+      "canonical": "Ludwig van Beethoven",
+      "death_year": 1827,
+      "aliases": [
+        "beethoven",
+        "ludwig van beethoven",
+        "l van beethoven",
+        "l v beethoven",
+        "lv beethoven",
+        "ludwig beethoven",
+        "van beethoven",
+        "louis van beethoven",
+        "ludvig van beethoven",
+        "beethoven ludwig van",
+        "l beethoven"
+      ]
+    },
+    {
+      "canonical": "Franz Schubert",
+      "death_year": 1828,
+      "aliases": [
+        "schubert",
+        "franz schubert",
+        "f schubert",
+        "franz peter schubert",
+        "fr schubert",
+        "schubert franz"
+      ]
+    },
+    {
+      "canonical": "Gioachino Rossini",
+      "death_year": 1868,
+      "aliases": [
+        "rossini",
+        "gioachino rossini",
+        "gioacchino rossini",
+        "g rossini",
+        "gioachino antonio rossini"
+      ]
+    },
+    {
+      "canonical": "Gaetano Donizetti",
+      "death_year": 1848,
+      "aliases": [
+        "donizetti",
+        "gaetano donizetti",
+        "g donizetti",
+        "domenico gaetano maria donizetti"
+      ]
+    },
+    {
+      "canonical": "Vincenzo Bellini",
+      "death_year": 1835,
+      "aliases": [
+        "bellini",
+        "vincenzo bellini",
+        "v bellini",
+        "vincenzo salvatore carmelo francesco bellini"
+      ]
+    },
+    {
+      "canonical": "Hector Berlioz",
+      "death_year": 1869,
+      "aliases": [
+        "berlioz",
+        "hector berlioz",
+        "h berlioz",
+        "louis hector berlioz"
+      ]
+    },
+    {
+      "canonical": "Felix Mendelssohn",
+      "death_year": 1847,
+      "aliases": [
+        "mendelssohn",
+        "felix mendelssohn",
+        "f mendelssohn",
+        "mendelssohn bartholdy",
+        "felix mendelssohn bartholdy",
+        "jakob ludwig felix mendelssohn bartholdy",
+        "felix mendelssohn-bartholdy",
+        "f mendelssohn bartholdy"
+      ]
+    },
+    {
+      "canonical": "Robert Schumann",
+      "death_year": 1856,
+      "aliases": [
+        "robert schumann",
+        "r schumann",
+        "robert alexander schumann",
+        "schumann robert",
+        "schumann"
+      ]
+    },
+    {
+      "canonical": "Frederic Chopin",
+      "death_year": 1849,
+      "aliases": [
+        "chopin",
+        "frederic chopin",
+        "f chopin",
+        "fryderyk chopin",
+        "fryderyk franciszek chopin",
+        "frederic francois chopin",
+        "frederick chopin",
+        "chopin frederic",
+        "fr chopin"
+      ]
+    },
+    {
+      "canonical": "Franz Liszt",
+      "death_year": 1886,
+      "aliases": [
+        "liszt",
+        "franz liszt",
+        "f liszt",
+        "ferenc liszt",
+        "liszt ferenc",
+        "franz joseph liszt",
+        "ferencz liszt"
+      ]
+    },
+    {
+      "canonical": "Richard Wagner",
+      "death_year": 1883,
+      "aliases": [
+        "richard wagner",
+        "r wagner",
+        "wilhelm richard wagner",
+        "wagner richard",
+        "wagner"
+      ]
+    },
+    {
+      "canonical": "Giuseppe Verdi",
+      "death_year": 1901,
+      "aliases": [
+        "verdi",
+        "giuseppe verdi",
+        "g verdi",
+        "giuseppe fortunino francesco verdi",
+        "verdi giuseppe"
+      ]
+    },
+    {
+      "canonical": "Johannes Brahms",
+      "death_year": 1897,
+      "aliases": [
+        "brahms",
+        "johannes brahms",
+        "j brahms",
+        "brahms johannes"
+      ]
+    },
+    {
+      "canonical": "Pyotr Ilyich Tchaikovsky",
+      "death_year": 1893,
+      "aliases": [
+        "tchaikovsky",
+        "tschaikovsky",
+        "tschaikowsky",
+        "chaikovsky",
+        "tchaikowsky",
+        "peter tchaikovsky",
+        "pyotr tchaikovsky",
+        "p i tchaikovsky",
+        "pi tchaikovsky",
+        "p tchaikovsky",
+        "peter ilyich tchaikovsky",
+        "pyotr ilyich tchaikovsky",
+        "petr ilich tchaikovsky",
+        "pyotr ilich tchaikovsky",
+        "peter iljitsch tschaikowsky",
+        "piotr tchaikovsky",
+        "tchaikovsky peter",
+        "tchaikovsky pyotr"
+      ]
+    },
+    {
+      "canonical": "Antonin Dvorak",
+      "death_year": 1904,
+      "aliases": [
+        "dvorak",
+        "antonin dvorak",
+        "a dvorak",
+        "antonin leopold dvorak",
+        "antonin dvorak",
+        "dvorak antonin"
+      ]
+    },
+    {
+      "canonical": "Edvard Grieg",
+      "death_year": 1907,
+      "aliases": [
+        "grieg",
+        "edvard grieg",
+        "e grieg",
+        "edvard hagerup grieg"
+      ]
+    },
+    {
+      "canonical": "Georges Bizet",
+      "death_year": 1875,
+      "aliases": [
+        "bizet",
+        "georges bizet",
+        "g bizet",
+        "alexandre cesar leopold bizet",
+        "georges alexandre cesar leopold bizet"
+      ]
+    },
+    {
+      "canonical": "Charles Gounod",
+      "death_year": 1893,
+      "aliases": [
+        "gounod",
+        "charles gounod",
+        "c gounod",
+        "charles francois gounod"
+      ]
+    },
+    {
+      "canonical": "Jacques Offenbach",
+      "death_year": 1880,
+      "aliases": [
+        "offenbach",
+        "jacques offenbach",
+        "j offenbach",
+        "jakob offenbach"
+      ]
+    },
+    {
+      "canonical": "Johann Strauss II",
+      "death_year": 1899,
+      "aliases": [
+        "johann strauss ii",
+        "johann strauss 2",
+        "johann strauss jr",
+        "johann strauss junior",
+        "johann strauss the younger",
+        "j strauss ii",
+        "strauss ii",
+        "johann baptist strauss",
+        "strauss johann ii",
+        "johann strauss",
+        "j strauss jr",
+        "strauss johann",
+        "johann strauss sohn",
+        "johann strauss sohn"
+      ]
+    },
+    {
+      "canonical": "Anton Bruckner",
+      "death_year": 1896,
+      "aliases": [
+        "bruckner",
+        "anton bruckner",
+        "a bruckner",
+        "josef anton bruckner"
+      ]
+    },
+    {
+      "canonical": "Cesar Franck",
+      "death_year": 1890,
+      "aliases": [
+        "cesar franck",
+        "c franck",
+        "cesar auguste franck",
+        "cesar auguste jean guillaume humbert franck",
+        "franck cesar"
+      ]
+    },
+    {
+      "canonical": "Modest Mussorgsky",
+      "death_year": 1881,
+      "aliases": [
+        "mussorgsky",
+        "modest mussorgsky",
+        "m mussorgsky",
+        "musorgsky",
+        "moussorgsky",
+        "modest petrovich mussorgsky",
+        "modest petrovich musorgsky",
+        "m p mussorgsky"
+      ]
+    },
+    {
+      "canonical": "Alexander Borodin",
+      "death_year": 1887,
+      "aliases": [
+        "borodin",
+        "alexander borodin",
+        "a borodin",
+        "aleksandr borodin",
+        "alexander porfiryevich borodin",
+        "aleksandr porfirevich borodin"
+      ]
+    },
+    {
+      "canonical": "Bedrich Smetana",
+      "death_year": 1884,
+      "aliases": [
+        "smetana",
+        "bedrich smetana",
+        "b smetana",
+        "friedrich smetana"
+      ]
+    },
+    {
+      "canonical": "Nikolai Rimsky-Korsakov",
+      "death_year": 1908,
+      "aliases": [
+        "rimsky korsakov",
+        "rimsky-korsakov",
+        "n rimsky korsakov",
+        "nikolai rimsky korsakov",
+        "nikolay rimsky korsakov",
+        "n a rimsky korsakov",
+        "rimskykorsakov",
+        "rimskij korsakov",
+        "nikolai andreyevich rimsky korsakov",
+        "n rimsky-korsakov",
+        "rimsky korsakoff",
+        "rimsky-korsakoff"
+      ]
+    }
+  ]
+}

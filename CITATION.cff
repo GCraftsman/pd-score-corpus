@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+title: pd-score-corpus
+message: >-
+  If you use this curated subset, cite PDMX (Long et al.) and, as the
+  PDMX authors request, MetaScore (Xu et al.). Cite this repository
+  only for the allowlist/filter/manifest.
+type: dataset
+authors:
+  - family-names: Lacasse
+    given-names: Michael
+date-released: "2026-09-02"
+license: CC0-1.0
+references:
+  - type: conference-paper
+    title: "PDMX: A Large-Scale Public Domain MusicXML Dataset for Symbolic Music Processing"
+    authors:
+      - family-names: Long
+        given-names: Phillip
+      - family-names: Novack
+        given-names: Zachary
+      - family-names: Berg-Kirkpatrick
+        given-names: Taylor
+      - family-names: McAuley
+        given-names: Julian
+    year: 2025
+    conference:
+      name: "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+    pages: "1-5"
+    doi: 10.1109/ICASSP49660.2025.10890217
+    url: https://arxiv.org/abs/2409.10831
+    notes: >-
+      Dataset: Zenodo record 15571083 (v9, 2025-06-01),
+      DOI 10.5281/zenodo.15571083.
+  - type: article
+    title: Generating Symbolic Music from Natural Language Prompts using an LLM-Enhanced Dataset
+    authors:
+      - family-names: Xu
+        given-names: Weihan
+      - family-names: McAuley
+        given-names: Julian
+      - family-names: Berg-Kirkpatrick
+        given-names: Taylor
+      - family-names: Dubnov
+        given-names: Shlomo
+      - family-names: Dong
+        given-names: Hao-Wen
+    year: 2024
+    url: https://arxiv.org/abs/2410.02084
+    notes: MetaScore. PDMX authors request this citation when using the PDMX dataset.

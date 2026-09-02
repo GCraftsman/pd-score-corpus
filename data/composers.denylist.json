@@ -1,0 +1,157 @@
+{
+  "description": "Never keep these composers (or soundtrack/anime/film names) even if a PDMX row is tagged CC0/PDM. Aliases are lowercase, punctuation-stripped.",
+  "composers": [
+    {
+      "canonical": "Igor Stravinsky",
+      "aliases": [
+        "stravinsky",
+        "igor stravinsky",
+        "i stravinsky"
+      ]
+    },
+    {
+      "canonical": "Jean Sibelius",
+      "aliases": [
+        "sibelius",
+        "jean sibelius",
+        "j sibelius",
+        "johan julius christian sibelius"
+      ]
+    },
+    {
+      "canonical": "Dmitri Shostakovich",
+      "aliases": [
+        "shostakovich",
+        "dmitri shostakovich",
+        "d shostakovich",
+        "chostakovitch",
+        "schostakowitsch",
+        "dmitri dmitriyevich shostakovich"
+      ]
+    },
+    {
+      "canonical": "Sergei Prokofiev",
+      "aliases": [
+        "prokofiev",
+        "sergei prokofiev",
+        "s prokofiev",
+        "prokofieff",
+        "sergey prokofiev"
+      ]
+    },
+    {
+      "canonical": "Bela Bartok",
+      "aliases": [
+        "bartok",
+        "bela bartok",
+        "b bartok"
+      ]
+    },
+    {
+      "canonical": "Arnold Schoenberg",
+      "aliases": [
+        "schoenberg",
+        "schonberg",
+        "arnold schoenberg",
+        "arnold schonberg",
+        "a schoenberg"
+      ]
+    },
+    {
+      "canonical": "George Gershwin",
+      "aliases": [
+        "gershwin",
+        "george gershwin",
+        "g gershwin"
+      ]
+    },
+    {
+      "canonical": "Leonard Bernstein",
+      "aliases": [
+        "leonard bernstein",
+        "l bernstein",
+        "lenny bernstein"
+      ]
+    },
+    {
+      "canonical": "Aaron Copland",
+      "aliases": [
+        "copland",
+        "aaron copland",
+        "a copland"
+      ]
+    },
+    {
+      "canonical": "Ralph Vaughan Williams",
+      "aliases": [
+        "vaughan williams",
+        "ralph vaughan williams",
+        "r vaughan williams",
+        "rvw"
+      ]
+    },
+    {
+      "canonical": "Richard Strauss",
+      "aliases": [
+        "richard strauss",
+        "r strauss",
+        "strauss richard"
+      ]
+    },
+    {
+      "canonical": "John Williams",
+      "aliases": [
+        "john williams",
+        "john t williams",
+        "williams john",
+        "johnny williams"
+      ]
+    },
+    {
+      "canonical": "Hans Zimmer",
+      "aliases": [
+        "zimmer",
+        "hans zimmer",
+        "h zimmer"
+      ]
+    },
+    {
+      "canonical": "Michael Giacchino",
+      "aliases": [
+        "giacchino",
+        "michael giacchino"
+      ]
+    },
+    {
+      "canonical": "James Horner",
+      "aliases": [
+        "james horner",
+        "j horner"
+      ]
+    },
+    {
+      "canonical": "Danny Elfman",
+      "aliases": [
+        "elfman",
+        "danny elfman",
+        "daniel elfman"
+      ]
+    },
+    {
+      "canonical": "Joe Hisaishi",
+      "aliases": [
+        "hisaishi",
+        "joe hisaishi",
+        "mamoru fujisawa",
+        "fujisawa mamoru"
+      ]
+    }
+  ],
+  "notes": [
+    "Bare 'williams' is too collision-prone (hymn composers); matcher flags John Williams / Vaughan Williams only, plus title/tag soundtrack keywords.",
+    "Bare 'strauss' is not denylisted (Johann Strauss II is on the v1 allowlist); 'richard strauss' is.",
+    "Bare 'bernstein' is not denylisted (Elmer Bernstein and others); 'leonard bernstein' is.",
+    "Bare 'horner' is not denylisted; 'james horner' is.",
+    "Any soundtrack/anime/film composer should also be caught by the title/tags/genres keyword denylist."
+  ]
+}
