@@ -1,0 +1,1 @@
+LAST RESORT. Piano recording of the piano piece. No CC orchestra/strings of Op.28/20 was found. Comparator piano-to-orchestra is the wrong pair — use only to check that Maestro did not destroy the chorale (harmony, phrase lengths), not voicing.

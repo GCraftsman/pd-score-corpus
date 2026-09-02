@@ -1,0 +1,37 @@
+{
+  "work_slug": "beethoven-op67-i",
+  "composer": "Ludwig van Beethoven",
+  "work_title": "Symphony No. 5 in C minor, Op. 67, I. Allegro con brio",
+  "corpus_pdmx_ids": [
+    "QmYE1PgciP8F1iDxLFHiSyAXYFMxhZMeizejwUXZBggFwN"
+  ],
+  "corpus_midi": "midi/16/18/QmYE1PgciP8F1iDxLFHiSyAXYFMxhZMeizejwUXZBggFwN.mid",
+  "maestro_experiment": null,
+  "target_file": "target.ogg",
+  "target_kind": "orchestra",
+  "target_is_arrangement": false,
+  "arrangement_copyright": "pd",
+  "recording": {
+    "performer": "Skidmore College Orchestra",
+    "ensemble": "Skidmore College Orchestra",
+    "year": null,
+    "url": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_i._allegro_con_brio.ogg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_i._allegro_con_brio.ogg",
+    "license": "PD-dedication",
+    "attribution": "Skidmore College Orchestra; Beethoven Symphony No. 5/I; public domain (Musopen).",
+    "format": "ogg",
+    "sample_rate_hz": 48000
+  },
+  "compare": {
+    "render_maestro_with": "fluidsynth-gm",
+    "align": "start",
+    "criteria": [
+      "melody-register",
+      "bass-weight",
+      "texture-density",
+      "articulation",
+      "tempo-feel"
+    ]
+  },
+  "fair_pair": true
+}

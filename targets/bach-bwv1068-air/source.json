@@ -1,0 +1,37 @@
+{
+  "work_slug": "bach-bwv1068-air",
+  "composer": "Johann Sebastian Bach",
+  "work_title": "Orchestral Suite No. 3, BWV 1068, Air (Wilhelmj 'Air on the G String' layout)",
+  "corpus_pdmx_ids": [
+    "QmQsXfKCGmLtvSEDye3fVirUZnAwNBHZqyFc7dTvs8QypQ",
+    "QmfDSqHUKU8qy6nvxHcfz5uTwD7TV6xk1ww4a4aukmBnvg"
+  ],
+  "corpus_midi": "midi/8/42/QmQsXfKCGmLtvSEDye3fVirUZnAwNBHZqyFc7dTvs8QypQ.mid",
+  "maestro_experiment": null,
+  "target_file": "target.mp3",
+  "target_kind": "strings",
+  "target_is_arrangement": true,
+  "arrangement_copyright": "pd",
+  "recording": {
+    "performer": "United States Air Force Strings, 1st Lt. Keith H. Bland",
+    "ensemble": "USAF Air Force Strings",
+    "year": 2000,
+    "url": "https://commons.wikimedia.org/wiki/File:Air_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Air_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+    "license": "PD-US-federal",
+    "attribution": "Air Force Strings, United States Air Force Band; Bach/Wilhelmj Air on the G String; U.S. federal public domain.",
+    "format": "mp3",
+    "sample_rate_hz": 44100
+  },
+  "compare": {
+    "render_maestro_with": "fluidsynth-gm",
+    "align": "start",
+    "criteria": [
+      "melody-register",
+      "bass-weight",
+      "articulation",
+      "texture-density"
+    ]
+  },
+  "fair_pair": true
+}

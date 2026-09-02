@@ -1,0 +1,36 @@
+{
+  "work_slug": "mozart-k421-iii",
+  "composer": "Wolfgang Amadeus Mozart",
+  "work_title": "String Quartet No. 15 in D minor, K.421, III. Minuetto",
+  "corpus_pdmx_ids": [
+    "QmbjiXNoTmLNHq6Xw8f6kWh2TBGGGcputXwLvsDE8oc8Fa"
+  ],
+  "corpus_midi": "midi/1/26/QmbjiXNoTmLNHq6Xw8f6kWh2TBGGGcputXwLvsDE8oc8Fa.mid",
+  "maestro_experiment": "EXP-04-texture",
+  "target_file": "target.ogg",
+  "target_kind": "chamber",
+  "target_is_arrangement": false,
+  "arrangement_copyright": "pd",
+  "recording": {
+    "performer": "Musopen String Quartet",
+    "ensemble": "Musopen String Quartet",
+    "year": 2012,
+    "url": "https://commons.wikimedia.org/wiki/File:Mozart_-_String_Quartet_No._15_in_D_minor,_K421_-_III._Minuetto_(Allegretto)_(Musopen_String_Quartet).flac",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/Mozart_-_String_Quartet_No._15_in_D_minor%2C_K421_-_III._Minuetto_%28Allegretto%29_%28Musopen_String_Quartet%29.flac/Mozart_-_String_Quartet_No._15_in_D_minor%2C_K421_-_III._Minuetto_%28Allegretto%29_%28Musopen_String_Quartet%29.flac.ogg",
+    "license": "PD-dedication",
+    "attribution": "Musopen String Quartet; Mozart K.421/III; public domain (Musopen Kickstarter 2012).",
+    "format": "ogg",
+    "sample_rate_hz": 44100
+  },
+  "compare": {
+    "render_maestro_with": "fluidsynth-gm",
+    "align": "start",
+    "criteria": [
+      "texture-density",
+      "articulation",
+      "tempo-feel",
+      "bass-weight"
+    ]
+  },
+  "fair_pair": false
+}

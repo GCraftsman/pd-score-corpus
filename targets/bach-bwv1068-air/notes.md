@@ -1,0 +1,1 @@
+FLAG: Wilhelmj arrangement. Comparator: string-chorale cantabile gold (register, sustain, bass). Do not copy a solo-violin-on-G-string layout unless the experiment asks for it. Prefer Musopen worldwide-PD files if the app ships outside the US without a carve-out.

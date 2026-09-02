@@ -1,0 +1,34 @@
+{
+  "work_slug": "bach-bwv846",
+  "composer": "Johann Sebastian Bach",
+  "work_title": "Well-Tempered Clavier I, Prelude in C major, BWV 846",
+  "corpus_pdmx_ids": [
+    "QmbHzrXuDGNG3HyzLpeBNeZ9wAj4bTDGWsZ5xz56abM8D8"
+  ],
+  "corpus_midi": "midi/1/24/QmbHzrXuDGNG3HyzLpeBNeZ9wAj4bTDGWsZ5xz56abM8D8.mid",
+  "maestro_experiment": "EXP-02",
+  "target_file": "target.ogg",
+  "target_kind": "piano",
+  "target_is_arrangement": false,
+  "arrangement_copyright": "pd",
+  "recording": {
+    "performer": "Kimiko Ishizaka",
+    "ensemble": null,
+    "year": 2015,
+    "url": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier,_Book_1_-_01_Prelude_No._1_in_C_major,_BWV_846.ogg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier%2C_Book_1_-_01_Prelude_No._1_in_C_major%2C_BWV_846.ogg",
+    "license": "CC0-1.0",
+    "attribution": "Kimiko Ishizaka; Bach WTC I Prelude BWV 846; CC0 1.0 (Open Well-Tempered Clavier).",
+    "format": "ogg",
+    "sample_rate_hz": 96000
+  },
+  "compare": {
+    "render_maestro_with": "fluidsynth-gm",
+    "align": "start",
+    "criteria": [
+      "tempo-feel",
+      "articulation"
+    ]
+  },
+  "fair_pair": false
+}

@@ -1,0 +1,36 @@
+{
+  "work_slug": "mozart-k550-iii",
+  "composer": "Wolfgang Amadeus Mozart",
+  "work_title": "Symphony No. 40 in G minor, K.550, III. Menuetto. Allegretto",
+  "corpus_pdmx_ids": [
+    "QmXuHrnp8bRq9er2We5f34VF6TknxuZ768fL2DubBDkb1b"
+  ],
+  "corpus_midi": "midi/15/46/QmXuHrnp8bRq9er2We5f34VF6TknxuZ768fL2DubBDkb1b.mid",
+  "maestro_experiment": "EXP-04-texture",
+  "target_file": "target.flac",
+  "target_kind": "orchestra",
+  "target_is_arrangement": false,
+  "arrangement_copyright": "pd",
+  "recording": {
+    "performer": "Musopen Symphony",
+    "ensemble": "Musopen Symphony",
+    "year": 2012,
+    "url": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_III._Menuetto._Allegretto_(Musopen_Symphony).flac",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_III._Menuetto._Allegretto_%28Musopen_Symphony%29.flac",
+    "license": "PD-dedication",
+    "attribution": "Musopen Symphony Orchestra; Mozart Symphony No. 40/III; public domain (Musopen Kickstarter 2012).",
+    "format": "flac",
+    "sample_rate_hz": 48000
+  },
+  "compare": {
+    "render_maestro_with": "fluidsynth-gm",
+    "align": "start",
+    "criteria": [
+      "bass-weight",
+      "texture-density",
+      "articulation",
+      "tempo-feel"
+    ]
+  },
+  "fair_pair": true
+}

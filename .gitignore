@@ -7,3 +7,8 @@ venv/
 .pytest_cache/
 *.pyc
 .DS_Store
+
+# raw downloads; curated copies live in targets/{slug}/
+targets/incoming/*.ogg
+targets/incoming/*.mp3
+targets/incoming/*.flac

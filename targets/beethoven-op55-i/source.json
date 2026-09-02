@@ -1,0 +1,37 @@
+{
+  "work_slug": "beethoven-op55-i",
+  "composer": "Ludwig van Beethoven",
+  "work_title": "Symphony No. 3 in E-flat major, Op. 55 'Eroica', I. Allegro con brio",
+  "corpus_pdmx_ids": [
+    "QmTEq61ZNPEwE97M8nX4M4THacz5CMrNjeMVhHZrxfvkPs"
+  ],
+  "corpus_midi": "midi/11/18/QmTEq61ZNPEwE97M8nX4M4THacz5CMrNjeMVhHZrxfvkPs.mid",
+  "maestro_experiment": null,
+  "target_file": "target.ogg",
+  "target_kind": "orchestra",
+  "target_is_arrangement": false,
+  "arrangement_copyright": "pd",
+  "recording": {
+    "performer": "Musopen Symphony (Czech National Symphony Orchestra)",
+    "ensemble": "Musopen Symphony",
+    "year": 2012,
+    "url": "https://commons.wikimedia.org/wiki/File:Beethoven_-_Symphony_No._3_in_E_flat_major,_Op._55_%27Eroica%27_-_I._Allegro_con_brio_(Musopen_Symphony).flac",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/Beethoven_-_Symphony_No._3_in_E_flat_major%2C_Op._55_%27Eroica%27_-_I._Allegro_con_brio_%28Musopen_Symphony%29.flac/Beethoven_-_Symphony_No._3_in_E_flat_major%2C_Op._55_%27Eroica%27_-_I._Allegro_con_brio_%28Musopen_Symphony%29.flac.ogg",
+    "license": "PD-dedication",
+    "attribution": "Musopen Symphony Orchestra (Czech National Symphony Orchestra); Beethoven Symphony No. 3/I; public domain (Musopen Kickstarter 2012).",
+    "format": "ogg",
+    "sample_rate_hz": 44100
+  },
+  "compare": {
+    "render_maestro_with": "fluidsynth-gm",
+    "align": "start",
+    "criteria": [
+      "melody-register",
+      "bass-weight",
+      "texture-density",
+      "articulation",
+      "tempo-feel"
+    ]
+  },
+  "fair_pair": true
+}
