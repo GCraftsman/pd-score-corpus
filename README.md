@@ -101,6 +101,19 @@ How to download `PDMX.csv` / `mid.tar.gz` and run the filter:
 **[scripts/README.md](scripts/README.md)**. Exact Zenodo URLs were
 fetched from https://zenodo.org/records/15571083 (v9, 1 June 2025).
 
+## Music Maestro
+
+Piano → orchestra experiment playbook for a teammate coding/music agent:
+[`docs/maestro/`](docs/maestro/). Start at
+[`docs/maestro/README.md`](docs/maestro/README.md) (recipe in
+[`docs/maestro/SKILL.md`](docs/maestro/SKILL.md)). Outputs are SMF Type 1
+under [`arrangements/`](arrangements/) and an append-only log at
+[`arrangements/NOTES.md`](arrangements/NOTES.md).
+
+Those MIDI files are **experimental arrangements**, not film-cleared
+cues. Read [LEGAL.md](LEGAL.md). Do not train on copyrighted film scores,
+YouTube, or sample-library renders.
+
 ## Cite
 
 Please cite **both** papers, as the PDMX authors request. See
