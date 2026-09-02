@@ -9,6 +9,8 @@ Follow this recipe for **every** experiment. Cards in
 [`experiments.md`](experiments.md) only change *source query*, *ensemble*,
 and *method*. Rules live in [`orchestration-rules.md`](orchestration-rules.md).
 Bytes layout lives in [`midi-contract.md`](midi-contract.md).
+First-pass hygiene (before critic): [`first-pass.md`](first-pass.md).
+Critic JSON patches: [`critic-patches.md`](critic-patches.md).
 
 ## 0. Preconditions
 
@@ -188,6 +190,21 @@ Implement [`midi-contract.md`](midi-contract.md) literally:
   `arrangement: experimental, CC0`.
 - Exact track names. GM programs for preview. Concert pitch.
 - Filename pattern. Create directories as needed.
+
+## 8b. First-pass hygiene, then critic
+
+Run [`first-pass.md`](first-pass.md) on v1 **before** handing it to
+critic (detach fused 8ths, chop tutti attacks, locked GM map, no
+default +12 melody doubling). Critic emits 1–2 JSON patches per
+cycle ([`critic-patches.md`](critic-patches.md)). Apply with:
+
+```bash
+python3 scripts/apply_critic_patches.py \
+  --midi IN.mid --patches patches.json --out OUT.mid
+```
+
+The next critic pass must confirm previous patch ids **APPLIED**.
+Anything the schema cannot express is a Maestro rewrite, not a patch.
 
 ## 9. Validate
 

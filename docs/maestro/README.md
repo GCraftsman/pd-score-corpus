@@ -6,7 +6,7 @@
 
 This directory is the playbook for turning **piano / keyboard symbolic music** into **multi-instrument and full orchestral SMF Type 1** files for Logic Pro / GarageBand.
 
-Read this file, then follow [`SKILL.md`](SKILL.md) for every experiment. Do not improvise a film-score style and do not train on copyrighted audio.
+Read this file, then follow [`SKILL.md`](SKILL.md) for every experiment. Run [`first-pass.md`](first-pass.md) on v1 before critic; critic emits JSON patches ([`critic-patches.md`](critic-patches.md)). Do not improvise a film-score style and do not train on copyrighted audio.
 
 ## Hard constraints (non-negotiable)
 
@@ -21,9 +21,13 @@ Read this file, then follow [`SKILL.md`](SKILL.md) for every experiment. Do not 
 
 | Role | Does |
 | --- | --- |
-| Music Maestro (you) | Pick a source row, run an experiment card, write MIDI + a NOTES.md block |
-| Parent / owner | Reviews, pushes git, opens files in Logic |
+| Music Maestro (you) | First-pass arrange ([`first-pass.md`](first-pass.md)); anything the patch schema cannot express; MIDI + NOTES.md |
+| Critic | Emits JSON patches only ([`critic-patches.md`](critic-patches.md)). Does not edit MIDI bytes. |
+| Applier | `scripts/apply_critic_patches.py` applies critic JSON to an SMF |
+| Coordinator / parent | Job card (clip, gold recording, cycle id). Reviews, pushes git, opens files in Logic |
 | App (future) | Stitches excerpts and exports user-facing SMF |
+
+**Ownership:** Critic emits, applier code applies, Maestro owns first-pass arrange + anything the schema cannot express, coordinator owns the job card (clip / gold / id).
 
 ## How to pick a source row
 
@@ -68,6 +72,8 @@ Full spec: [`midi-contract.md`](midi-contract.md).
 | File | Purpose |
 | --- | --- |
 | [SKILL.md](SKILL.md) | Reusable recipe. Follow every experiment. |
+| [first-pass.md](first-pass.md) | v1 hygiene before critic (detach 8ths, GM map, no default +12) |
+| [critic-patches.md](critic-patches.md) | Critic JSON ops; apply-then-verify |
 | [orchestration-rules.md](orchestration-rules.md) | Ranges, role map, doubling, density, CC, era tables |
 | [midi-contract.md](midi-contract.md) | Exact SMF Type 1 layout |
 | [experiments.md](experiments.md) | Numbered experiment cards, in order |

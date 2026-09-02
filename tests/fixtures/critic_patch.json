@@ -1,0 +1,38 @@
+{
+  "cycle_id": "TEST-CRITIC-PATCH",
+  "source_midi": "tests/fixtures/critic_patch_input.mid",
+  "comment": "Detach fused 8ths (0.498 -> 0.225) and drop the long an octave (clip 55-100).",
+  "patches": [
+    {
+      "id": "detach-8ths",
+      "op": "set_duty",
+      "desks": [
+        "Vln I"
+      ],
+      "tick_range": [
+        0,
+        960
+      ],
+      "bar_range": [
+        1,
+        3
+      ],
+      "duty": 0.225,
+      "comment": "CYCLE-B5I-01 #1 bug: fused 0.498-beat 8ths"
+    },
+    {
+      "id": "transpose-long",
+      "op": "transpose",
+      "desks": [
+        "Violin I"
+      ],
+      "tick_range": [
+        960,
+        1440
+      ],
+      "semitones": -12,
+      "clip_lo": 55,
+      "clip_hi": 100
+    }
+  ]
+}

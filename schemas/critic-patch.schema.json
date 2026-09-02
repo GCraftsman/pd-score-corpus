@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/GCraftsman/pd-score-corpus/schemas/critic-patch.schema.json",
+  "title": "Critic MIDI patches",
+  "description": "Tiny ops the critic emits and scripts/apply_critic_patches.py applies. tick_range is [start, end) in absolute SMF ticks. Desks match midi-contract track names (Violin I / Vln I).",
+  "type": "object",
+  "required": ["patches"],
+  "additionalProperties": false,
+  "properties": {
+    "cycle_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Job-card cycle id (coordinator-owned)."
+    },
+    "source_midi": {
+      "type": "string",
+      "description": "Path of the MIDI these patches target (informational)."
+    },
+    "comment": { "type": "string" },
+    "patches": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/patch" }
+    }
+  },
+  "$defs": {
+    "tickRange": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "integer", "minimum": 0 },
+        { "type": "integer", "minimum": 0 }
+      ],
+      "minItems": 2,
+      "maxItems": 2,
+      "description": "[start, end) absolute ticks. A note matches if its onset is in range."
+    },
+    "barRange": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "integer", "minimum": 1 },
+        { "type": "integer", "minimum": 1 }
+      ],
+      "minItems": 2,
+      "maxItems": 2,
+      "description": "Optional [start, end) 1-indexed bars. Documentary; applier uses tick_range."
+    },
+    "midi7": { "type": "integer", "minimum": 0, "maximum": 127 },
+    "patch": {
+      "type": "object",
+      "required": ["id", "op", "desks", "tick_range"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Stable id. Next critic pass must mark previous ids APPLIED."
+        },
+        "op": {
+          "type": "string",
+          "enum": [
+            "set_duty",
+            "transpose",
+            "rest",
+            "set_pitch",
+            "set_velocity",
+            "add_note",
+            "shorten_to_beats"
+          ]
+        },
+        "desks": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "tick_range": { "$ref": "#/$defs/tickRange" },
+        "bar_range": { "$ref": "#/$defs/barRange" },
+        "duty": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "set_duty: sounding duration in beats (e.g. 0.225)."
+        },
+        "semitones": {
+          "type": "integer",
+          "description": "transpose: signed shift before clip_lo/clip_hi."
+        },
+        "clip_lo": { "$ref": "#/$defs/midi7" },
+        "clip_hi": { "$ref": "#/$defs/midi7" },
+        "pitch": { "$ref": "#/$defs/midi7" },
+        "velocity": { "$ref": "#/$defs/midi7" },
+        "beats": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "shorten_to_beats cap, or add_note duration in beats."
+        },
+        "duration_ticks": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "add_note duration in ticks (overrides beats when both set in code: duration_ticks wins)."
+        },
+        "comment": { "type": "string" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "op": { "const": "set_duty" } }, "required": ["op"] },
+          "then": { "required": ["duty"] }
+        },
+        {
+          "if": { "properties": { "op": { "const": "transpose" } }, "required": ["op"] },
+          "then": { "required": ["semitones"] }
+        },
+        {
+          "if": { "properties": { "op": { "const": "set_pitch" } }, "required": ["op"] },
+          "then": { "required": ["pitch"] }
+        },
+        {
+          "if": { "properties": { "op": { "const": "set_velocity" } }, "required": ["op"] },
+          "then": { "required": ["velocity"] }
+        },
+        {
+          "if": { "properties": { "op": { "const": "shorten_to_beats" } }, "required": ["op"] },
+          "then": { "required": ["beats"] }
+        },
+        {
+          "if": { "properties": { "op": { "const": "add_note" } }, "required": ["op"] },
+          "then": {
+            "required": ["pitch"],
+            "anyOf": [
+              { "required": ["duration_ticks"] },
+              { "required": ["beats"] }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
