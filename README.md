@@ -25,9 +25,12 @@ Top composers in the keep set: Bach 1,190; Mozart 380; Beethoven 279; Handel 227
 
 Piano-only is sparse because PDMX v9 `tracks` is numeric part IDs, not instrument names — classification is tag-driven. Many of the 1,714 untagged single-track files are likely keyboard encodings; treat `is_piano_only` as a lower bound.
 
-This repository is the *selector*: allow/deny/gray composer lists, a
-filter over `PDMX.csv`, and a manifest of paths into the PDMX dump. It
-is not a 14 GB mirror of PDMX, and it is **not a clearance catalog**.
+This repository is the *selector* plus the **v1 MIDI bytes**:
+allow/deny/gray composer lists, a filter over `PDMX.csv`, a manifest,
+and `midi/` (3,730 Standard MIDI files, ~92 MB, same ids as the
+manifest `mid` column). It is not a 14 GB PDMX mirror, and it is
+**not a clearance catalog**. MusicXML is not checked in; unpack
+`mxl.tar.gz` from Zenodo if you need it (see scripts/README.md).
 
 **Do not claim these files are cleared for film.** Read [LEGAL.md](LEGAL.md).
 
