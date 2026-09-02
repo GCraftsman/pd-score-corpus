@@ -11,6 +11,12 @@ and *method*. Rules live in [`orchestration-rules.md`](orchestration-rules.md).
 Bytes layout lives in [`midi-contract.md`](midi-contract.md).
 First-pass hygiene (before critic): [`first-pass.md`](first-pass.md).
 Critic JSON patches: [`critic-patches.md`](critic-patches.md).
+App path (piano solo → invented orchestra, analog refs):
+[`analog-matching.md`](analog-matching.md),
+[`piano-solo-arrange.md`](piano-solo-arrange.md),
+[`analog-critic.md`](analog-critic.md).
+Not CYCLE same-work gold — do not match analog MIDI numbers.
+
 
 ## 0. Preconditions
 
