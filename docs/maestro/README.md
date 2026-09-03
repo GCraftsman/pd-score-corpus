@@ -79,6 +79,8 @@ Full spec: [`midi-contract.md`](midi-contract.md).
 | [analog-matching.md](analog-matching.md) | Pick 1–3 PD/CC analog recordings (tempo/meter/texture, not same work) |
 | [piano-solo-arrange.md](piano-solo-arrange.md) | App path: keep user’s tune, embellish, section layers |
 | [analog-critic.md](analog-critic.md) | Critic: role/density/accompaniment ideas only; no pitch copying |
+| [harmony-rules.md](harmony-rules.md) | One home key, allowed seams, cadence map, bar labels |
+| [variation-techniques.md](variation-techniques.md) | Random first-pass recipes; SKIP if they break harmony |
 | [experiments.md](experiments.md) | Numbered experiment cards, in order |
 | [references.md](references.md) | Citations with URLs and license tags |
 | [../../arrangements/NOTES.md](../../arrangements/NOTES.md) | Append-only run log |

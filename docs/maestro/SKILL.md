@@ -16,6 +16,7 @@ App path (piano solo → invented orchestra, analog refs):
 [`piano-solo-arrange.md`](piano-solo-arrange.md),
 [`analog-critic.md`](analog-critic.md).
 Not CYCLE same-work gold — do not match analog MIDI numbers.
+Harmony + variations: [`harmony-rules.md`](harmony-rules.md), [`variation-techniques.md`](variation-techniques.md).
 
 
 ## 0. Preconditions
