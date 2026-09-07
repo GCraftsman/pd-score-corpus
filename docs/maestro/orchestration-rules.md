@@ -13,6 +13,9 @@ Craft sources (see [`references.md`](references.md)): Rimsky-Korsakov
 Adler, Piston, Blatter, Kennan are **proprietary textbooks** — use them
 only as named *concepts* (do not paste their examples or prose).
 
+Per-region choir jobs (principal / harmonic bed / obbligato / motor) and
+`theme_owner_plan` handoffs: [`desk-roles.md`](desk-roles.md).
+
 ---
 
 ## 1. Instrument ranges (concert pitch)

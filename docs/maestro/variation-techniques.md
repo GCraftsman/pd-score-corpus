@@ -4,6 +4,8 @@ Named recipes Sketch Artist may **bake into a sketch** and Maestro may **randoml
 
 Pick **0–2** techniques per 30–60s cue (uniform among those that pass the preflight). Log `rolled:` and `applied:` separately.
 
+**Default Sketch roll pool (prefer):** `melody_inversion`, `left-to-right mirror`, `high/low part inversion`, `meld`, `rhythm-from-A + notes-from-B` — single-source / non-gap transforms. **Do not roll** `patchwork` or `gap-fill` on new sketches unless the job card sets `patchwork: true` (gap-fill only makes sense with patchwork gaps).
+
 Window sizes are in **bars of the home meter** unless noted. MIDI is PPQ 480, concert pitch.
 
 Skyline recognizability (non-inversion techniques): after the recipe, SKILL.md skyline pitch-class match vs the **pre-technique** skyline ≥ **70%** of active 1/32 buckets in that window, **or** skip.
@@ -11,6 +13,8 @@ Skyline recognizability (non-inversion techniques): after the recipe, SKILL.md s
 ---
 
 ## patchwork
+
+> **RETIRED for default Sketch jobs.** Do **not** roll on new sketches unless the job card explicitly sets `patchwork: true`. Section kept for history / old NOTES. Prefer single-source transforms below.
 
 **What:** 2-bar quotes from source A, 1-bar gaps (silence or hold) before the next quote.
 
@@ -43,6 +47,8 @@ Skyline recognizability (non-inversion techniques): after the recipe, SKILL.md s
 ---
 
 ## gap-fill
+
+> **RETIRED for default Sketch jobs.** Do **not** roll unless the job card sets `patchwork: true` (and gaps exist). Section kept for history. Prefer non-gap recipes.
 
 **What:** Maestro writes the silent bars up to the next labeled chord.
 
@@ -126,6 +132,7 @@ Skyline recognizability (non-inversion techniques): after the recipe, SKILL.md s
 ## Preflight (every roll)
 
 ```
+if technique in (patchwork, gap-fill) and job.patchwork != true: SKIP  # retired default
 if would_change_labeled_chord_tones_of_downbeats: SKIP
 if technique != melody_inversion and skyline_pc_match < 0.70: SKIP
 if technique == left_to_right_mirror and window_crosses_seam: SKIP

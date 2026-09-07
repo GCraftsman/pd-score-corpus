@@ -18,6 +18,7 @@ description: Use when a job card says theme: develop, or when Sketch Artist / Ma
 | Critic | Checks “theme audible?” and “overused?” — role/density only; may ask to thin competing mid. |
 
 **Bound by:** [`harmony-rules.md`](harmony-rules.md) (labeled chords stay), [`variation-techniques.md`](variation-techniques.md) (when rolling recipes), [`style-targets.md`](style-targets.md) (texture packs only), [`first-pass.md`](first-pass.md), [`../../LEGAL.md`](../../LEGAL.md) §11.
+Region principal handoff / choir vocabulary: [`desk-roles.md`](desk-roles.md) (overrides default Vln I when `theme_owner_plan` is set).
 
 **Legal note (not advice):** Develop *this* sketch’s material. Do not write a franchise theme, name living composers/films, scrape YouTube, or quote a third famous tune. PD craft (Rimsky paraphrase for color) is OK. Style packs change texture, not the theme’s pitch identity.
 
@@ -134,7 +135,7 @@ theme_contrast_bars: [...]
 
 | Rule | Detail |
 | --- | --- |
-| Owner | **Violin I** owns the theme by default. If `style_pack` allows (e.g. `heroic-brass` climax only), trumpet/horn may take **one** statement — then return to Vln I. |
+| Owner | **Violin I** owns the theme by default unless [`desk-roles.md`](desk-roles.md) `theme_owner_plan` rotates Horns → WW solo → Piano. If `style_pack` allows (e.g. `heroic-brass` climax only), trumpet/horn may take **one** statement — then return to Vln I. |
 | Motors off theme desk | Ostinato / detached mid 8ths stay on Vla, Vln II, or horns — **never** on the theme-owner desk during a full statement. |
 | Doubling | Optional soft octave below (Vc or Hn) on climax statement only; no default +12. |
 | Competing mid | During full statements, mid pads ≤ 2 voices; leave spectral room under the skyline. |

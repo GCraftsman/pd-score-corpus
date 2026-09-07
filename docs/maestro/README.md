@@ -85,6 +85,7 @@ Full spec: [`midi-contract.md`](midi-contract.md).
 | [large-ensemble-preview.md](large-ensemble-preview.md) | Denser GM orchestra when card says `preview: large-ensemble` (texture only) |
 | [render-preview.md](render-preview.md) | FluidSynth + legal SF bounce; gain/reverb; never commit WAV |
 | [theme-development.md](theme-development.md) | Spot/develop/place a catchy theme when card says `theme: develop` |
+| [desk-roles.md](desk-roles.md) | Choir role vocabulary + region handoff (`theme_owner_plan`, perc last) |
 | [experiments.md](experiments.md) | Numbered experiment cards, in order |
 | [references.md](references.md) | Citations with URLs and license tags |
 | [../../arrangements/NOTES.md](../../arrangements/NOTES.md) | Append-only run log |
