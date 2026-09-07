@@ -17,6 +17,7 @@ App path (piano solo → invented orchestra, analog refs):
 [`analog-critic.md`](analog-critic.md).
 Not CYCLE same-work gold — do not match analog MIDI numbers.
 Harmony + variations: [`harmony-rules.md`](harmony-rules.md), [`variation-techniques.md`](variation-techniques.md).
+Style packs (PD-legal; rewrite banned composer names): [`style-targets.md`](style-targets.md). LEGAL safe lane: [`../../LEGAL.md`](../../LEGAL.md) §11.
 
 
 ## 0. Preconditions

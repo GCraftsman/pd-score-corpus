@@ -11,7 +11,7 @@ Read this file, then follow [`SKILL.md`](SKILL.md) for every experiment. Run [`f
 ## Hard constraints (non-negotiable)
 
 1. **Legal.** Read [`../../LEGAL.md`](../../LEGAL.md). Arrangements of public-domain *notes* can themselves be copyrighted. Product intent is to **CC0 the app’s stitched/arranged MIDI**. That is a product policy, not a film-clearance. **Do not claim any output is cleared for film.**
-2. **No Williams / Zimmer / living-composer imitation.** Style target is the **source composer’s era** (Bach → baroque strings+continuo; Mozart/Beethoven → classical orchestra; Tchaikovsky → romantic orchestra). Era tables: [`orchestration-rules.md`](orchestration-rules.md).
+2. **No Williams / Zimmer / living-composer imitation.** Rewrite those asks to [`style-targets.md`](style-targets.md) packs. Default style target is the **source composer’s era** (Bach → baroque strings+continuo; Mozart/Beethoven → classical orchestra; Tchaikovsky → romantic orchestra). Era tables: [`orchestration-rules.md`](orchestration-rules.md).
 3. **Do not train on, scrape, or transcribe** YouTube, commercial recordings, or copyrighted film scores.
 4. **Sample-library EULAs.** Spitfire, BBCSO, Kontakt, etc. forbid training on their *renders*. Preview with **FluidSynth + a GM soundfont**, or open the MIDI in Logic and assign **Studio Strings / Studio Horns / Studio Woodwinds** *after* export. Never bake audio into the repo. Never commit `.logicx` or bounced stems.
 5. **Do not fight the MIDI extract.** Files may already live under [`../../midi/`](../../midi/) matching the manifest `mid` path with `mid/` → `midi/`. Do **not** delete [`.cache/`](../../.cache/). Do **not** `git commit` (parent will push).
@@ -81,6 +81,7 @@ Full spec: [`midi-contract.md`](midi-contract.md).
 | [analog-critic.md](analog-critic.md) | Critic: role/density/accompaniment ideas only; no pitch copying |
 | [harmony-rules.md](harmony-rules.md) | One home key, allowed seams, cadence map, bar labels |
 | [variation-techniques.md](variation-techniques.md) | Random first-pass recipes; SKIP if they break harmony |
+| [style-targets.md](style-targets.md) | PD-legal packs for heroic/dark/lyrical/etc.; bans living-composer targets |
 | [experiments.md](experiments.md) | Numbered experiment cards, in order |
 | [references.md](references.md) | Citations with URLs and license tags |
 | [../../arrangements/NOTES.md](../../arrangements/NOTES.md) | Append-only run log |

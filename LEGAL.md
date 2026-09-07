@@ -7,7 +7,7 @@ MIDI export, or rendered cue is “cleared for film,” “cleared for
 commercial use,” or free of third-party rights. A qualified lawyer in the
 relevant territories must review the stack before shipping or monetizing.
 
-Date of this memo: 2 September 2026.
+Date of this memo: 6 September 2026.
 
 ## 1. Layers: composition vs edition vs recording vs compilation
 
@@ -242,6 +242,33 @@ Before any commercial film/TV/game/trailer use, counsel should at least:
 9. Confirm that *Feist* thin-compilation theory is being relied on only
    for this repo’s manifest (which we CC0), not as a blanket “datasets
    are free” argument.
+
+
+## 11. Style targets and living composers (safe lane)
+
+**Not legal advice.** Product policy for Maestro / Critic / Sketch Artist.
+
+### What we treat as unprotected craft
+- Genre, tempo, mood words (“heroic,” “dark,” “lyrical”).
+- Orchestration *techniques* (horn pad, timp on downbeats, string tremolo, ostinato in one choir).
+- Functional harmony patterns that are common property (I–V–I, i–VI–III–VII as a *type*), when not taken as a labeled quote of a third work’s progression.
+
+Documented in [`docs/maestro/style-targets.md`](docs/maestro/style-targets.md) and [`docs/maestro/harmony-rules.md`](docs/maestro/harmony-rules.md).
+
+### What we refuse as references
+1. **Sound recordings** of copyrighted film/TV/game scores (YouTube, streaming rips, CD rips) as download, training, or critic “gold.”
+2. **Named living film composers** or **named copyrighted cues/franchises** as optimization targets or NOTES.md style labels.
+3. Critic loops whose success metric is distance to a copyrighted recording (access + similarity evidence).
+4. Copying distinctive melodies, ostinatos, or a third work’s chord progression “because the reference did it.”
+
+### Why
+US copyright does not protect style in the abstract, but protects musical *expression*. Using a copyrighted master as an iterative target creates (a) an unauthorized reproduction of the recording and (b) a written record of access while optimizing toward similarity — the fact pattern rightsholders and insurers care about. Publicity / persona theories around artist names are a separate risk when living composers are named in prompts.
+
+### Safe substitute
+Rewrite “make it like [living composer]” → a **pack id** in `style-targets.md` (`heroic-brass`, `dark-pad`, …). Use allowlisted PD composers and CC/PD `targets/` only as texture analogs. Keep the user’s/sketch tune. Log the rewrite (`banned_name_dropped: true`).
+
+### Still for counsel
+Whether a particular output is substantially similar to a protected work; territorial publicity claims; E&O questionnaire language; whether shipping GM previews that listeners *subjectively* call “Williams-like” needs extra process. This section is engineering policy, not a clearance opinion.
 
 ### Primary URLs
 
