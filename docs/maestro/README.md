@@ -6,7 +6,7 @@
 
 This directory is the playbook for turning **piano / keyboard symbolic music** into **multi-instrument and full orchestral SMF Type 1** files for Logic Pro / GarageBand.
 
-Read this file, then follow [`SKILL.md`](SKILL.md) for every experiment. Run [`first-pass.md`](first-pass.md) on v1 before critic; critic emits JSON patches ([`critic-patches.md`](critic-patches.md)). Two jobs: (1) CYCLE same-work gold vs a recording of **that** piece; (2) **app path** — piano idea → invented orchestra using analog *texture* refs ([`analog-matching.md`](analog-matching.md)). Do not improvise a film-score style and do not train on copyrighted audio.
+Read this file, then follow [`SKILL.md`](SKILL.md) for every experiment. Run [`first-pass.md`](first-pass.md) on v1 before critic; critic emits JSON patches ([`critic-patches.md`](critic-patches.md)). Two jobs: (1) CYCLE same-work gold vs a recording of **that** piece; (2) **app path** — piano idea → invented orchestra using analog *texture* refs ([`analog-matching.md`](analog-matching.md)). Do not improvise a named film-score style; use style packs + optional `preview: large-ensemble` density. Do not train on copyrighted audio.
 
 ## Hard constraints (non-negotiable)
 
@@ -82,6 +82,8 @@ Full spec: [`midi-contract.md`](midi-contract.md).
 | [harmony-rules.md](harmony-rules.md) | One home key, allowed seams, cadence map, bar labels |
 | [variation-techniques.md](variation-techniques.md) | Random first-pass recipes; SKIP if they break harmony |
 | [style-targets.md](style-targets.md) | PD-legal packs for heroic/dark/lyrical/etc.; bans living-composer targets |
+| [large-ensemble-preview.md](large-ensemble-preview.md) | Denser GM orchestra when card says `preview: large-ensemble` (texture only) |
+| [render-preview.md](render-preview.md) | FluidSynth + legal SF bounce; gain/reverb; never commit WAV |
 | [experiments.md](experiments.md) | Numbered experiment cards, in order |
 | [references.md](references.md) | Citations with URLs and license tags |
 | [../../arrangements/NOTES.md](../../arrangements/NOTES.md) | Append-only run log |

@@ -18,6 +18,7 @@ App path (piano solo → invented orchestra, analog refs):
 Not CYCLE same-work gold — do not match analog MIDI numbers.
 Harmony + variations: [`harmony-rules.md`](harmony-rules.md), [`variation-techniques.md`](variation-techniques.md).
 Style packs (PD-legal; rewrite banned composer names): [`style-targets.md`](style-targets.md). LEGAL safe lane: [`../../LEGAL.md`](../../LEGAL.md) §11.
+Large-ensemble density (only if job card `preview: large-ensemble`): [`large-ensemble-preview.md`](large-ensemble-preview.md). Fatter GM bounce: [`render-preview.md`](render-preview.md).
 
 
 ## 0. Preconditions
@@ -221,13 +222,9 @@ fails, fix the MIDI; do not log a green result.
 
 ## 10. Preview (optional but preferred)
 
-If `fluidsynth` and a GM soundfont exist:
+Follow [`render-preview.md`](render-preview.md) (MuseScore General SF3 when present, else FluidR3 GM; gain; optional mild ffmpeg reverb). Do not commit the wav. Do not use a commercial orchestral library.
 
-```bash
-fluidsynth -n -i -a file -F /tmp/maestro-preview.wav /usr/share/sounds/sf2/FluidR3_GM.sf2 path.mid
-```
-
-Do not commit the wav. Do not use a commercial orchestral library.
+If the job card sets `preview: large-ensemble`, apply [`large-ensemble-preview.md`](large-ensemble-preview.md) **before** bounce (density craft only — not a new harmonic language).
 
 ## 11. Log
 
