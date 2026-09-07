@@ -84,6 +84,7 @@ Full spec: [`midi-contract.md`](midi-contract.md).
 | [style-targets.md](style-targets.md) | PD-legal packs for heroic/dark/lyrical/etc.; bans living-composer targets |
 | [large-ensemble-preview.md](large-ensemble-preview.md) | Denser GM orchestra when card says `preview: large-ensemble` (texture only) |
 | [render-preview.md](render-preview.md) | FluidSynth + legal SF bounce; gain/reverb; never commit WAV |
+| [theme-development.md](theme-development.md) | Spot/develop/place a catchy theme when card says `theme: develop` |
 | [experiments.md](experiments.md) | Numbered experiment cards, in order |
 | [references.md](references.md) | Citations with URLs and license tags |
 | [../../arrangements/NOTES.md](../../arrangements/NOTES.md) | Append-only run log |

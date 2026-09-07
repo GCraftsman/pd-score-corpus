@@ -19,6 +19,7 @@ Not CYCLE same-work gold — do not match analog MIDI numbers.
 Harmony + variations: [`harmony-rules.md`](harmony-rules.md), [`variation-techniques.md`](variation-techniques.md).
 Style packs (PD-legal; rewrite banned composer names): [`style-targets.md`](style-targets.md). LEGAL safe lane: [`../../LEGAL.md`](../../LEGAL.md) §11.
 Large-ensemble density (only if job card `preview: large-ensemble`): [`large-ensemble-preview.md`](large-ensemble-preview.md). Fatter GM bounce: [`render-preview.md`](render-preview.md).
+Theme spotting/development (only if job card `theme: develop`): [`theme-development.md`](theme-development.md).
 
 
 ## 0. Preconditions
